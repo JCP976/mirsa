@@ -378,7 +378,7 @@ font-family: 'Lobster', cursive;
 }
 
 .polaroid {
-  width: 240px;
+  width: 240x;
   height: 220px;
   position: absolute;
   float: left;
@@ -436,7 +436,4 @@ font-family: 'Lobster', cursive;
 
 .wishesFont p{
   font-size: 16px;
-
 }
-
-
