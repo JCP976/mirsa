@@ -482,3 +482,52 @@ font-family: 'Lobster', cursive;
 
 }
 
+/* 📱 FIX REAL PARA CELULARES */
+@media (max-width:768px){
+
+  body{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding:20px 10px;
+  }
+
+  #card{
+    width:100%;
+    max-width:420px;
+    position:relative;
+    top:auto;
+    bottom:auto;
+    left:auto;
+    right:auto;
+    transform:none !important;
+    margin:auto;
+  }
+
+  #card-front,
+  #card-inside{
+    width:100%;
+    left:0;
+    position:relative;
+  }
+
+  #card h1{
+    font-size:28px;
+  }
+
+  #card-inside{
+    font-size:1em;
+  }
+
+  .cake_and_velas{
+    position:relative;
+    bottom:auto;
+  }
+
+  #cake{
+    margin-top:20px;
+    width:80%;
+  }
+
+}
+
