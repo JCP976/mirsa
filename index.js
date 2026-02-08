@@ -6,9 +6,16 @@
   var card = $('card'),
       openB = $('open'),
       closeB = $('close'),
+      musica = $('musica'),
       timer = null;
+
   console.log('wat', card);
+
   openB.addEventListener('click', function () {
+
+    // 🎵 reproducir musica
+    musica.play();
+
     card.setAttribute('class', 'open-half');
     if (timer) clearTimeout(timer);
     timer = setTimeout(function () {
@@ -18,8 +25,13 @@
   });
 
   closeB.addEventListener('click', function () {
+
+    // ⏹️ detener musica
+    musica.pause();
+    musica.currentTime = 0;
+
     card.setAttribute('class', 'close-half');
-    if (timer) clearTimerout(timer);
+    if (timer) clearTimeout(timer);
     timer = setTimeout(function () {
       card.setAttribute('class', '');
       timer = null;
