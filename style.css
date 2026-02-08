@@ -531,3 +531,27 @@ font-family: 'Lobster', cursive;
 
 }
 
+
+@media (max-width:768px){
+
+  .cake_and_velas{
+    position:relative;
+    bottom:auto;
+    margin-top:20px;
+  }
+
+  #cake{
+    margin:20px auto 0 auto;
+    width:80%;
+  }
+
+  .velas{
+    top:50%;
+  }
+
+  .card-front_inside{
+    width:95%;
+    height:auto;
+  }
+
+}
